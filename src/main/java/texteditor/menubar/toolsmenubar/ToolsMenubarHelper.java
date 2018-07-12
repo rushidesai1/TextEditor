@@ -1,8 +1,8 @@
-package main.java.texteditor.menubar.toolsmenubar;
+package texteditor.menubar.toolsmenubar;
 
-import main.java.texteditor.TextEditorFrame;
-import main.java.texteditor.menubar.toolsmenubar.wordsmenubar.WordsMenuBarHelper;
-import main.java.texteditor.menubar.toolsmenubar.wordsmenubar.bookmarkmenubar.BookmarkMenuBarHelper;
+import texteditor.TextEditorFrame;
+import texteditor.menubar.toolsmenubar.wordsmenubar.WordsMenuBarHelper;
+import texteditor.menubar.toolsmenubar.wordsmenubar.bookmarkmenubar.BookmarkMenuBarHelper;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

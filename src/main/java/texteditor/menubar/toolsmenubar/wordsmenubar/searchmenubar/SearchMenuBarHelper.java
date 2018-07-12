@@ -1,9 +1,9 @@
-package main.java.texteditor.menubar.toolsmenubar.wordsmenubar.searchmenubar;
+package texteditor.menubar.toolsmenubar.wordsmenubar.searchmenubar;
 
-import main.java.texteditor.TextEditorFrame;
-import main.java.texteditor.menubar.toolsmenubar.wordsmenubar.enums.EnumWordsMenuBarItems;
-import main.java.texteditor.menubar.toolsmenubar.wordsmenubar.searchmenubar.searchnewmenubar.SearchData;
-import main.java.texteditor.menubar.toolsmenubar.wordsmenubar.searchmenubar.searchnewmenubar.enums.EnumSearchNewMenuBar;
+import texteditor.TextEditorFrame;
+import texteditor.menubar.toolsmenubar.wordsmenubar.enums.EnumWordsMenuBarItems;
+import texteditor.menubar.toolsmenubar.wordsmenubar.searchmenubar.searchnewmenubar.SearchData;
+import texteditor.menubar.toolsmenubar.wordsmenubar.searchmenubar.searchnewmenubar.enums.EnumSearchNewMenuBar;
 
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;

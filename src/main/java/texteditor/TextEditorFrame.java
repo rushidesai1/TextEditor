@@ -1,7 +1,7 @@
-package main.java.texteditor;
+package texteditor;
 
-import main.java.texteditor.contentPane.ContentPaneHelper;
-import main.java.texteditor.menubar.mainmenubar.MenuBarHelper;
+import texteditor.contentPane.ContentPaneHelper;
+import texteditor.menubar.mainmenubar.MenuBarHelper;
 
 import javax.swing.*;
 import javax.swing.plaf.TextUI;

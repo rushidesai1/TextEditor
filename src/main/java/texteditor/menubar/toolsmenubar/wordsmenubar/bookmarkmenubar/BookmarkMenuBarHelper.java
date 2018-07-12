@@ -1,9 +1,9 @@
-package main.java.texteditor.menubar.toolsmenubar.wordsmenubar.bookmarkmenubar;
+package texteditor.menubar.toolsmenubar.wordsmenubar.bookmarkmenubar;
 
-import main.java.texteditor.TextEditorFrame;
-import main.java.texteditor.menubar.toolsmenubar.enums.EnumToolsMenuItems;
-import main.java.texteditor.menubar.toolsmenubar.wordsmenubar.bookmarkmenubar.enums.EnumBookmarksMenuItems;
-import main.java.texteditor.menubar.toolsmenubar.wordsmenubar.bookmarkmenubar.oldmenubar.OldMenuBarHelper;
+import texteditor.TextEditorFrame;
+import texteditor.menubar.toolsmenubar.enums.EnumToolsMenuItems;
+import texteditor.menubar.toolsmenubar.wordsmenubar.bookmarkmenubar.enums.EnumBookmarksMenuItems;
+import texteditor.menubar.toolsmenubar.wordsmenubar.bookmarkmenubar.oldmenubar.OldMenuBarHelper;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

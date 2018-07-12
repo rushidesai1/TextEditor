@@ -1,4 +1,4 @@
-package main.java.texteditor.menubar.toolsmenubar.wordsmenubar.enums;
+package texteditor.menubar.toolsmenubar.wordsmenubar.enums;
 
 /**
  * Created by desair4 on 11/23/2015.

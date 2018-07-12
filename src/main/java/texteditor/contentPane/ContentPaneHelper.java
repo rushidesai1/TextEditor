@@ -1,8 +1,8 @@
-package main.java.texteditor.contentPane;
+package texteditor.contentPane;
 
-import main.java.texteditor.TextEditorFrame;
-import main.java.texteditor.menubar.filemenubar.FileMenuBarHelper;
-import main.java.texteditor.menubar.filemenubar.FileMenuBarHelper.ActionFileMenuOpenOptionClick;
+import texteditor.TextEditorFrame;
+import texteditor.menubar.filemenubar.FileMenuBarHelper;
+import texteditor.menubar.filemenubar.FileMenuBarHelper.ActionFileMenuOpenOptionClick;
 
 import javax.swing.*;
 import javax.swing.event.AncestorEvent;
@@ -129,12 +129,12 @@ public class ContentPaneHelper {
         JPopupMenu jPopupMenu1 = new JPopupMenu();
 
         JMenuItem jMenuItem2 = new JMenuItem();
-        jMenuItem2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/images/copy.png")));
+        jMenuItem2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/copy.png")));
         jMenuItem2.setText("Copy");
         jPopupMenu1.add(jMenuItem2);
 
         JMenuItem jMenuItem3 = new JMenuItem();
-        jMenuItem3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/images/paste.png")));
+        jMenuItem3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/paste.png")));
         jMenuItem3.setText("Paste");
         jPopupMenu1.add(jMenuItem3);
 
@@ -150,7 +150,7 @@ public class ContentPaneHelper {
         final JButton btnSelectColor = new JButton();
 
 
-        btnNew.setIcon(new ImageIcon(getClass().getResource("/main/resources/images/new.png")));
+        btnNew.setIcon(new ImageIcon(getClass().getResource("/images/new.png")));
         btnNew.setFocusable(false);
         btnNew.setHorizontalTextPosition(SwingConstants.CENTER);
         btnNew.setVerticalTextPosition(SwingConstants.BOTTOM);
@@ -161,7 +161,7 @@ public class ContentPaneHelper {
         });
         jToolBar1.add(btnNew);
 
-        btnOpen.setIcon(new ImageIcon(getClass().getResource("/main/resources/images/open.png")));
+        btnOpen.setIcon(new ImageIcon(getClass().getResource("/images/open.png")));
         btnOpen.setFocusable(false);
         btnOpen.setHorizontalTextPosition(SwingConstants.CENTER);
         btnOpen.setVerticalTextPosition(SwingConstants.BOTTOM);
@@ -170,14 +170,14 @@ public class ContentPaneHelper {
         btnOpen.addActionListener(openActionListener);
         jToolBar1.add(btnOpen);
 
-        btnSave.setIcon(new ImageIcon(getClass().getResource("/main/resources/images/save.png")));
+        btnSave.setIcon(new ImageIcon(getClass().getResource("/images/save.png")));
         btnSave.setFocusable(false);
         btnSave.setHorizontalTextPosition(SwingConstants.CENTER);
         btnSave.setVerticalTextPosition(SwingConstants.BOTTOM);
         btnSave.addActionListener(fileMenuBarHelper.new ActionFileMenuSaveOptionClick());
         jToolBar1.add(btnSave);
 
-        btnSelectColor.setIcon(new ImageIcon(getClass().getResource("/main/resources/images/color.png")));
+        btnSelectColor.setIcon(new ImageIcon(getClass().getResource("/images/color.png")));
         btnSelectColor.setFocusable(false);
         btnSelectColor.setHorizontalTextPosition(SwingConstants.CENTER);
         btnSelectColor.setVerticalTextPosition(SwingConstants.BOTTOM);

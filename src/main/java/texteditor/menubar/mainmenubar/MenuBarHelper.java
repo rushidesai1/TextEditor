@@ -1,9 +1,9 @@
-package main.java.texteditor.menubar.mainmenubar;
+package texteditor.menubar.mainmenubar;
 
-import main.java.texteditor.TextEditorFrame;
-import main.java.texteditor.menubar.filemenubar.FileMenuBarHelper;
-import main.java.texteditor.menubar.filemenubar.enums.EnumFileMenuItems;
-import main.java.texteditor.menubar.toolsmenubar.ToolsMenubarHelper;
+import texteditor.TextEditorFrame;
+import texteditor.menubar.filemenubar.FileMenuBarHelper;
+import texteditor.menubar.filemenubar.enums.EnumFileMenuItems;
+import texteditor.menubar.toolsmenubar.ToolsMenubarHelper;
 
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;

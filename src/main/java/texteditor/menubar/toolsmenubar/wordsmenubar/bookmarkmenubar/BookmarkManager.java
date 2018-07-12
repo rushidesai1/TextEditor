@@ -1,6 +1,6 @@
-package main.java.texteditor.menubar.toolsmenubar.wordsmenubar.bookmarkmenubar;
+package texteditor.menubar.toolsmenubar.wordsmenubar.bookmarkmenubar;
 
-import main.java.texteditor.TextEditorFrame;
+import texteditor.TextEditorFrame;
 
 import javax.swing.*;
 import javax.swing.text.BadLocationException;

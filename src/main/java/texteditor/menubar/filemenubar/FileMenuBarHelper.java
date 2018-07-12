@@ -1,8 +1,8 @@
-package main.java.texteditor.menubar.filemenubar;
+package texteditor.menubar.filemenubar;
 
-import main.java.texteditor.TextEditorFrame;
-import main.java.texteditor.menubar.filemenubar.enums.EnumFileMenuItems;
-import main.java.texteditor.menubar.mainmenubar.MenuBarHelper;
+import texteditor.TextEditorFrame;
+import texteditor.menubar.filemenubar.enums.EnumFileMenuItems;
+import texteditor.menubar.mainmenubar.MenuBarHelper;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -39,21 +39,21 @@ public class FileMenuBarHelper {
 
         openItem = new JMenuItem(EnumFileMenuItems.OPEN.valueOf());
         openItem.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_O, java.awt.event.InputEvent.CTRL_MASK));
-        openItem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/images/copy.png"))); // NOI18N
+        openItem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/copy.png"))); // NOI18N
 
         saveItem = new JMenuItem(EnumFileMenuItems.SAVE.valueOf());
         saveItem.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_S, java.awt.event.InputEvent.CTRL_MASK));
-        saveItem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/images/save.png"))); // NOI18N
+        saveItem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/save.png"))); // NOI18N
 
         saveAsItem = new JMenuItem(EnumFileMenuItems.SAVEAS.valueOf());
-        saveAsItem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/images/save.png"))); // NOI18N
+        saveAsItem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/save.png"))); // NOI18N
 
 
         closeItem = new JMenuItem(EnumFileMenuItems.CLOSE.valueOf());
 
         exitItem = new JMenuItem(EnumFileMenuItems.EXIT.valueOf());
         exitItem.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_X, java.awt.event.InputEvent.ALT_MASK));
-        exitItem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/resources/images/exit.png"))); // NOI18N
+        exitItem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/exit.png"))); // NOI18N
 
         File currentFile = null;
 
